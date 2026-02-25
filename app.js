@@ -63,7 +63,7 @@ const AppointmentSchema = new mongoose.Schema({
 
 const Appointment = mongoose.model('Appointment', AppointmentSchema);
 
-// --- RUTAS API ---
+// ---np RUTAS API ---
 
 // Utilidades de filtro para turnos
 function buildAppointmentFilter(query) {
